@@ -46,6 +46,15 @@ var myPlayList = [
 ]
 
 
+$(".songs").append(mySong.title);
+$(".songs").append(mySong.artist);
+
+
+var myPlaylist = ["24K Magic", "Sir Duke", "Sorry"];
+
+
+
+
 
 // DOCUMENT READY FUNCTION
 $( document ).ready(function() {
