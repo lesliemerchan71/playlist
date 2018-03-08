@@ -58,7 +58,16 @@ var myPlaylist = ["24K Magic", "Sir Duke", "Sorry"];
 
 // DOCUMENT READY FUNCTION
 $( document ).ready(function() {
-  
+  $('button').click(function(){
+  	var songTitle = $("#title").val();
+  	var artistTitle = $("#artist").val();
+  	var linkOfSong = $("#link").val();
+  	var imageOfSong = $("#image").val();
+  	
+  	addSong(songTitle, artistTitle);
+    clearList();
+    displayList();
+  });
 
 
 
